@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<level size="1150,800">
+	<items>
+		<sensor x="155" y="430">
+			<red/>
+			<green/>
+			<blue/>
+		</sensor>
+		<conveyor x="205" y="400" speed="100" height="800" panel="60,-390">
+			<product placement="100" shape="square" color="green" content="izzo" />
+			<product placement="+150" shape="square" color="red" kick="yes"/>
+			<product placement="+150" shape="diamond" color="blue" kick="yes" />
+			<product placement="+150" shape="circle" color="green" content="smith" kick="no"/>
+			<product placement="+150" shape="diamond" color="blue" content="basketball" kick="yes" />
+			<product placement="+150" shape="square" color="red" content="football" kick="yes"/>
+		</conveyor>
+		<beam x="297" y="437" sender="-185" />
+		<sparty x="345" y="340" height="300" pin="1100, 400" kick-duration="0.25" kick-speed="1000"/>
+		<scoreboard x="700" y="40" good="10" bad="-5">Make Sparty kick all product from the conveyor<br/>that are not green.</scoreboard>
+	</items>
+</level>
